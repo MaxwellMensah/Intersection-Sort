@@ -26,3 +26,6 @@ As you can see in the diagram above, after picking a key, we start iterating ove
 We continue to move towards left if the elements are greater than the key element and stop when we find the element which is less than the key element.
 
 And, insert the key element after the element which is less than the key element.
+<br/>
+
+# Implementing Insertion Sort Algorithm
