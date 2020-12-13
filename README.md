@@ -29,3 +29,46 @@ And, insert the key element after the element which is less than the key element
 <br/>
 
 # Implementing Insertion Sort Algorithm
+
+//member functions declaration <br/>
+void insertionSort(int arr[], int length); <br/>
+void printArray(int array[], int size);<br/>
+ 
+// main function<br/>
+int main() <br/>
+{               <br/>      <br/><br/>
+	int array[5] = {5, 1, 6, 2, 4, 3};<br/>
+	// calling insertion sort function to sort the array<br/>
+	insertionSort(array, 6);   <br/>
+	return 0;<br/>
+}<br/>
+ 
+void insertionSort(int arr[], int length) <br/>
+{<br/>
+	int i, j, key;<br/>
+	for (i = 1; i < length; i++) <br/>
+	{<br/>
+		j = i;<br/>
+ 		while (j > 0 && arr[j - 1] > arr[j]) <br/>
+ 		{
+ 			key = arr[j];<br/>
+ 			arr[j] = arr[j - 1];<br/>
+ 			arr[j - 1] = key;<br/>
+ 			j--;<br/>
+ 		}<br/>
+	}<br/>
+	cout << "Sorted Array: ";<br/>
+	// print the sorted array<br/>
+	printArray(arr, length);<br/>
+}<br/>
+<br/>
+// function to print the given array <br/>
+void printArray(int array[], int size)<br/>
+{ <br/>
+ 	int j;<br/>
+	for (j = 0; j < size; j++)<br/>
+	{<br/>
+ 		cout <<" "<< array[j];<br/>
+ 	}<br/>
+ 	cout << endl;<br/>
+}<br/>
