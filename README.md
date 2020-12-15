@@ -41,7 +41,7 @@ int main() <br/>
 	// calling insertion sort function to sort the array<br/>
 	insertionSort(array, 6);   <br/>
 	return 0;<br/>
-}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
  
 void insertionSort(int arr[], int length) <br/>
 {<br/>
@@ -50,17 +50,17 @@ void insertionSort(int arr[], int length) <br/>
 	{<br/>
 		j = i;<br/>
  		while (j > 0 && arr[j - 1] > arr[j]) <br/>
- 		{
+ 	&nbsp;&nbsp;&nbsp;&nbsp;	{
  			key = arr[j];<br/>
  			arr[j] = arr[j - 1];<br/>
  			arr[j - 1] = key;<br/>
  			j--;<br/>
- 		}<br/>
-	}<br/>
+ 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
 	cout << "Sorted Array: ";<br/>
 	// print the sorted array<br/>
 	printArray(arr, length);<br/>
-}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
 <br/>
 // function to print the given array <br/>
 void printArray(int array[], int size)<br/>
