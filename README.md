@@ -66,9 +66,11 @@ void insertionSort(int arr[], int length) <br/>
 void printArray(int array[], int size)<br/>
 { <br/>
  &nbsp;&nbsp;&nbsp;	int j;<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	for (j = 0; j < size; j++)<br/>
-	{<br/>
+ for (j = 0; j < size; j++)<br/>
+
+&nbsp;&nbsp;	{<br/>
  		cout <<" "<< array[j];<br/>
- 	}<br/>
+ 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
  	cout << endl;<br/>
 }<br/>
