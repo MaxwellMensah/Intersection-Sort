@@ -28,9 +28,9 @@ We continue to move towards left if the elements are greater than the key elemen
 And, insert the key element after the element which is less than the key element.
 <br/>
 
-# Implementing Insertion Sort Algorithm
+# Implementing Insertion Sort Algorithm.
 
-//member functions declaration <br/>
+//member functions declaration <br/><br/>
 void insertionSort(int arr[], int length); <br/>
 void printArray(int array[], int size);<br/>
  
