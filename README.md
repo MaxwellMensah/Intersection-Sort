@@ -47,7 +47,7 @@ void insertionSort(int arr[], int length) <br/>
 {<br/>
 	int i, j, key;<br/>
 	for (i = 1; i < length; i++) <br/>
-	{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;	{<br/>
 		j = i;<br/>
  		while (j > 0 && arr[j - 1] > arr[j]) <br/>
  	&nbsp;&nbsp;&nbsp;&nbsp;	{
