@@ -71,6 +71,6 @@ void printArray(int array[], int size)<br/>
 &nbsp;&nbsp;	{<br/>
  		cout <<" "<< array[j];<br/>
  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
  	cout << endl;<br/>
 }<br/>
