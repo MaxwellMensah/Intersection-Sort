@@ -48,7 +48,7 @@ void insertionSort(int arr[], int length) <br/>
 	int i, j, key;<br/>
 	for (i = 1; i < length; i++) <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;	{<br/>
-		j = i;<br/>
+		j = i;                   <br/>
  		while (j > 0 && arr[j - 1] > arr[j]) <br/>
  	&nbsp;&nbsp;&nbsp;&nbsp;	{
  			key = arr[j];<br/>
@@ -73,4 +73,4 @@ void printArray(int array[], int size)<br/>
  	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
  	cout << endl;<br/>
-}<br/>
+}<br/><br/>
